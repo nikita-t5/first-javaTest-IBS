@@ -1,4 +1,4 @@
-package firstTest;
+package ru.ibs.project.firstTest;
 
 import java.util.List;
 import java.util.Objects;

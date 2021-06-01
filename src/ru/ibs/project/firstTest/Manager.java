@@ -1,4 +1,4 @@
-package firstTest;
+package ru.ibs.project.firstTest;
 
 public interface Manager {
     int coefficientManager = 3; //public, static и final
