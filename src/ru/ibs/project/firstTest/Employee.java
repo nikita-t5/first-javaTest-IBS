@@ -13,6 +13,9 @@ public abstract class Employee {
         this.worktime = worktime;
     }
 
+    public Employee() {
+    }
+
     public abstract double calcSalary();
 
     public String aboutEmployee() {
