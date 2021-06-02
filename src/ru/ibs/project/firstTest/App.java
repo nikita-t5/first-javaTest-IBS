@@ -20,10 +20,7 @@ public class App {
         employeeSet.add(vasya);
         employeeSet.add(ivan);
         //b)
-        List<Employee> employeeList = new ArrayList<>();
-        employeeList.add(petya);
-        employeeList.add(vasya);
-        employeeList.add(ivan);
+        List<Employee> employeeList = new ArrayList<>(employeeSet);
 
         for (Employee employee : employeeList)
             System.out.println(employee.getClass().getSimpleName() + " " +
